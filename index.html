@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery and Slideshow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Image Gallery -->
+    <div class="gallery">
+        <input type="radio" name="gallery" id="img1" hidden>
+        <input type="radio" name="gallery" id="img2" hidden>
+        <input type="radio" name="gallery" id="img3" hidden>
+
+        <div class="thumbnails">
+            <label for="img1"><img src="image1.jpg" alt="Image 1"></label>
+            <label for="img2"><img src="image2.jpg" alt="Image 2"></label>
+            <label for="img3"><img src="image3.jpg" alt="Image 3"></label>
+        </div>
+
+        <div class="full-img">
+            <div class="image" id="full1"><img src="image1.jpg" alt="Full Image 1"></div>
+            <div class="image" id="full2"><img src="image2.jpg" alt="Full Image 2"></div>
+            <div class="image" id="full3"><img src="image3.jpg" alt="Full Image 3"></div>
+        </div>
+    </div>
+
+    <!-- Slideshow -->
+    <div class="slideshow">
+        <div class="slide fade"><img src="image1.jpg" alt="Slide 1"></div>
+        <div class="slide fade"><img src="image2.jpg" alt="Slide 2"></div>
+        <div class="slide fade"><img src="image3.jpg" alt="Slide 3"></div>
+    </div>
+</body>
+</html>
